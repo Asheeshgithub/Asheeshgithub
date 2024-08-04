@@ -30,11 +30,13 @@ This project processes lap times for F1 drivers from a CSV file, calculates aver
 
 ## Getting Started
 Prerequisites
-Python 3.x
-pip (Python package installer)
+
+* Python 3.x
+* pip (Python package installer)
 
 ## Usage
-Installing
+Installation 
+
 # Clone the repository:
 
 ```
