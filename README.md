@@ -80,15 +80,15 @@ Unit tests are provided in src/tests/test_laptimes.py. To run the tests:
 ## Error Handling
 The code includes error handling for the following cases:
 
-1. File not found: Raises a FileNotFoundError with a descriptive message.
-2. Invalid CSV format: Raises a ValueError if the CSV header is incorrect.
-3. Malformed rows: Skips rows with incorrect format and logs a warning.
-4. Invalid lap times: Skips rows with non-numeric or negative lap times and logs a warning.
+* File not found: Raises a FileNotFoundError with a descriptive message.
+*  Invalid CSV format: Raises a ValueError if the CSV header is incorrect.
+* Malformed rows: Skips rows with incorrect format and logs a warning.
+* Invalid lap times: Skips rows with non-numeric or negative lap times and logs a warning.
 
 
 Example JSON Output
 The top3_laptime_statistics.json file will contain data in the following format:
-
+```
 {
     "Lewis Hamilton": {
         "average_time": 85.3325,
@@ -103,9 +103,9 @@ The top3_laptime_statistics.json file will contain data in the following format:
         "lowest_time": 86.789
     }
 }
+```
 
-
-This output includes the average lap time and the lowest lap time for each of the top 3 drivers.
+This output includes the average lap time and the lowest lap time for each of the top 3 drivers in json.
 
 
 This Markdown-formatted README provides a structured and detailed overview of your project, including setup instructions, usage guidelines, logging, testing, and error handling information, as well as a license section. This should help users understand how to use and contribute to the project effectively.
