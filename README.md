@@ -27,8 +27,9 @@ This project processes lap times for F1 drivers from a CSV file, calculates aver
 │   └── tests
 │       └── test_laptimes.py
 └── requirements.txt
+```
 
-Getting Started
+## Getting Started
 Prerequisites
 Python 3.x
 pip (Python package installer)
