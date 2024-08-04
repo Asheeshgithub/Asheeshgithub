@@ -36,15 +36,15 @@ pip (Python package installer)
 ## Usage
 Installing
 # Clone the repository:
-`
+
+```
 git clone https://github.com/yourusername/f1-laptime-processor.git
 cd f1-laptime-processor/engineering
-
-`
+```
 
 Install the required packages:
 
-`pip install -r requirements.txt`
+```pip install -r requirements.txt```
 
 Prepare the input CSV file named laptimes.csv with the following format:
 
@@ -75,15 +75,15 @@ Logs are written to logfile.log in the project root directory. The log file incl
 ## Tests
 Unit tests are provided in src/tests/test_laptimes.py. To run the tests:
 
-python -m unittest discover src/tests
+```python -m unittest discover src/tests```
 
 ## Error Handling
 The code includes error handling for the following cases:
 
-File not found: Raises a FileNotFoundError with a descriptive message.
-Invalid CSV format: Raises a ValueError if the CSV header is incorrect.
-Malformed rows: Skips rows with incorrect format and logs a warning.
-Invalid lap times: Skips rows with non-numeric or negative lap times and logs a warning.
+1. File not found: Raises a FileNotFoundError with a descriptive message.
+2. Invalid CSV format: Raises a ValueError if the CSV header is incorrect.
+3. Malformed rows: Skips rows with incorrect format and logs a warning.
+4. Invalid lap times: Skips rows with non-numeric or negative lap times and logs a warning.
 
 
 Example JSON Output
