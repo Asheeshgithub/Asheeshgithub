@@ -11,7 +11,6 @@ This project processes lap times for F1 drivers from a CSV file, calculates aver
 - [Logging](#logging)
 - [Tests](#tests)
 - [Error Handling](#error-handling)
-- [License](#license)
 
 ## Project Structure
 
@@ -33,6 +32,8 @@ This project processes lap times for F1 drivers from a CSV file, calculates aver
 Prerequisites
 Python 3.x
 pip (Python package installer)
+
+## Usage
 Installing
 Clone the repository:
 git clone https://github.com/yourusername/f1-laptime-processor.git
@@ -62,15 +63,15 @@ python src/main/main.py
 
 The results will be written to top3_laptime_statistics.json in the same directory.
 
-Logging
+## Logging
 Logs are written to logfile.log in the project root directory. The log file includes messages at various levels (DEBUG, INFO, WARNING, ERROR, CRITICAL) to help trace the execution flow and identify issues.
 
-Tests
+## Tests
 Unit tests are provided in src/tests/test_laptimes.py. To run the tests:
 
 python -m unittest discover src/tests
 
-Error Handling
+## Error Handling
 The code includes error handling for the following cases:
 
 File not found: Raises a FileNotFoundError with a descriptive message.
