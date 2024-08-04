@@ -1,7 +1,7 @@
 @ -0,0 +1,104 @@
-# F1 Lap Time Processor
+# Top 3 F1 Lap Time Processor
 
-This project processes lap times for F1 drivers from a CSV file, calculates average lap times and lowest lap times, and generates a JSON file containing the statistics for the top 3 drivers with the least average lap times.
+This project processes lap times for F1 drivers from a CSV file, calculates average lap times and lowest lap times, and generates a JSON file containing the statistics for the top 3 drivers with the least average lap times and overall lowest time.
 
 ## Table of Contents
 
@@ -35,9 +35,11 @@ pip (Python package installer)
 
 ## Usage
 Installing
-Clone the repository:
+# Clone the repository:
+`
 git clone https://github.com/yourusername/f1-laptime-processor.git
 cd f1-laptime-processor
+`
 
 Install the required packages:
 
