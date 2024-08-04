@@ -38,15 +38,17 @@ Installing
 # Clone the repository:
 `
 git clone https://github.com/yourusername/f1-laptime-processor.git
-cd f1-laptime-processor
+cd f1-laptime-processor/engineering
+
 `
 
 Install the required packages:
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 Prepare the input CSV file named laptimes.csv with the following format:
 
+```
 driver,laptime
 Lewis Hamilton,85.678
 Max Verstappen,86.123
@@ -57,10 +59,12 @@ Sebastian Vettel,86.789
 Charles Leclerc,88.123
 Charles Leclerc,87.456
 Lando Norris,86.456
-
+```
 
 Run the main script:
+```
 python src/main/main.py
+```
 
 
 The results will be written to top3_laptime_statistics.json in the same directory.
